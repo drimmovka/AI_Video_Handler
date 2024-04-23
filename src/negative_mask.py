@@ -45,7 +45,7 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
         # add "classes = n" to track class with number "n" or don't to track all
 
         if results[0].boxes.id != None: # if the are objects to track
-            #getting mask from model
+            #getting masks from model
             masks = results[0].masks.data.cpu().numpy().astype(int)
             
             # for each tracked object inverting it's colors by mask
