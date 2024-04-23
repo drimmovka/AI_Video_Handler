@@ -30,10 +30,7 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
         mask = np.zeros(frame.shape[:2], dtype="uint8")
         cv2.rectangle(mask, (0, 0), (800, 600), 255, -1)
 
-        masked_frame = cv2.bitwise_and(frame, frame, mask=mask)
-        masked_frame = cv2.bitwise_not(masked_frame)
-
-        frame[mask > 0] = masked_frame[mask > 0]
+        frame[mask > 0] = cv2.bitwise_not(frame)[mask > 0]
 
         # for usage with model (comment "for testing without model" and uncomment this section)
         """
