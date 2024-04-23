@@ -32,7 +32,6 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
 
         masked_frame = cv2.bitwise_and(frame, frame, mask=mask)
         masked_frame = cv2.bitwise_not(masked_frame)
-        masked_frame = cv2.bitwise_and(masked_frame, masked_frame, mask=mask)
 
         frame[mask > 0] = masked_frame[mask > 0]
 
@@ -58,7 +57,6 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
                 
                 masked_frame = cv2.bitwise_and(frame, frame, mask = mask)
                 masked_frame = cv2.bitwise_not(masked_frame)
-                masked_frame = cv2.bitwise_and(masked_frame, masked_frame, mask = mask)
 
                 frame[mask > 0] = masked_frame[mask > 0]
         """
