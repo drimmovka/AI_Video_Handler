@@ -52,10 +52,7 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
             for mask in masks:
                 mask = cv2.resize(mask, (frame.shape[1], frame.shape[0]), interpolation = cv2.INTER_NEAREST)
                 
-                masked_frame = cv2.bitwise_and(frame, frame, mask = mask)
-                masked_frame = cv2.bitwise_not(masked_frame)
-
-                frame[mask > 0] = masked_frame[mask > 0]
+                frame[mask > 0] = cv2.bitwise_not(frame)[mask > 0]
         """
 
         if save_video:
