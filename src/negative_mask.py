@@ -1,3 +1,11 @@
+"""
+!!!
+IMPORTANT WRITE
+pip install ultralytics --upgrade before launch
+ON TOP OF INSTALLING ultralytics
+!!!
+"""
+
 import cv2
 from ultralytics import YOLO
 import numpy as np
@@ -34,7 +42,7 @@ def process_video(model, input_video_path, show_video=True, save_video=False, ou
 
         # for usage with model (comment "for testing without model" and uncomment this section)
         """
-        results = model.track(frame, iou = 0.5, conf = 0.8, persist = True, imgsz = 640, verbose = False, traker = "botsort.yaml")
+        results = model.track(frame, iou = 0.5, conf = 0.8, persist = True, imgsz = 640, verbose = False, traсker = "botsort.yaml")
         # model - our trained model
         # iou - intersection over union (the degree of overlap between two bounding boxes of true and predicted object (lower == more strict))
         # conf - confidence (in guessing the object from 0 to 1)
