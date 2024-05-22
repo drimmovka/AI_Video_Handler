@@ -46,7 +46,7 @@ cd AI_Video_Handler
 ### Project structure
 
 Input files are located in ***input*** directory. Output files will be located in ***output*** directory.
-***models*** directory contains models for detecting objects (***objects_640.pt***) and digits (***digits_640.pt***).
+***models*** directory contains models for detecting objects (*objects_640.pt*) and digits (*digits_640.pt*).
 
 
 <a name="example"></a>
