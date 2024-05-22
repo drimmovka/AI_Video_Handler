@@ -69,8 +69,8 @@ To find out more information about the launch flags:
 
 ### Developers
 
-  - [Boitsov Vladislav](#https://github.com/VladislavBoytsovfrom3341Clan)
-  - [Luchkin Mark](#https://github.com/markluchkin)
-  - [Maltsev Kirill](#https://github.com/KirillMaltsev3341)
-  - [Ryabov	Mikhail](#https://github.com/Devilpoper)
-  - [Shapovalenko Egor](#https://github.com/lastikp0)
+  - [Boitsov Vladislav](https://github.com/VladislavBoytsovfrom3341Clan)
+  - [Luchkin Mark](https://github.com/markluchkin)
+  - [Maltsev Kirill](https://github.com/KirillMaltsev3341)
+  - [Ryabov	Mikhail](https://github.com/Devilpoper)
+  - [Shapovalenko Egor](https://github.com/lastikp0)
