@@ -17,7 +17,6 @@
 ## Requirement software
 - ultralytics
 - opencv-python
-- python-csv
 - torchvision
 - numpy
 
@@ -27,6 +26,7 @@
 
 Before you run the *./install_required_software.sh*, make sure that you have pip3 installed or install it with the command
 ```bash
+sudo apt-get update
 sudo apt-get install python3-pip -y
 ```
 
