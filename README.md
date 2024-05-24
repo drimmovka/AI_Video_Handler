@@ -60,9 +60,9 @@ sudo apt-get install git -y
 
 Installation script
 ```bash
-git https://github.com/KirillMaltsev3341/AI_Video_Handler.git
-cd AI_Video_Handler
 sudo -s
+git clone https://github.com/KirillMaltsev3341/AI_Video_Handler.git
+cd AI_Video_Handler
 ./install_required_software.sh
 ```
 
