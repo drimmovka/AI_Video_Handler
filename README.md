@@ -30,7 +30,7 @@ changes the color of this object to a negative and displays information about th
 
 ### WSL
 
-The utility is designed to run on 🐧unix-like🐧 systems. If you have Windows, then you should install WSL (Windows Subsystem for Linux).
+The utility is designed to run on 🐧unix-like🐧 systems. If you have Windows, then you should install WSL (Windows Subsystem for Linux).  
 Tutorial:
 
   1. Windows features
